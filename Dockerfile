@@ -1,6 +1,6 @@
 FROM nginx:latest
 
-MAINTAINER Tran Duc Thang <thangtd90@gmail.com>
+MAINTAINER Nikolay Volkov <gitkv@ya.ru>
 
 ENV TERM xterm
 COPY nginx.conf /etc/nginx/nginx.conf
